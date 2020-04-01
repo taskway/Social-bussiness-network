@@ -1,0 +1,22 @@
+.container {
+    display: inline-block;
+    padding: 5px 10px 9px 10px;
+    margin-bottom: 10px;
+    background-color: #3bdbff75;
+    border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    position: relative;
+    right: 0;
+}
+.container .name {
+    font-size: 14px;
+}
+.container .text {
+    font-size: 17px;
+}
+.r {
+    border-radius: 10px 0px 10px 10px;
+    -moz-border-radius: 10px 0px 10px 10px;
+    -webkit-border-radius: 10px 0px 10px 10px;
+}

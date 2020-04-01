@@ -1,0 +1,29 @@
+.header {
+    grid-area: h;
+    justify-self: center;
+    align-self: center;
+    padding: 0 28px;
+}
+.header .topMenu {
+
+}
+.header .topMenu a {
+    color: #7b7b7b;
+}
+.header .topMenu .title {
+    font-size: 12px;
+    font-family: "Circe Light";
+    margin-top: 5px;
+}
+.header .topMenu > div {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+}
+.header .topMenu > div:first-child {
+    margin-left: 0;
+}
+.activeLink > div > svg {
+    fill: #626262;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+div .userButtons {
+    fill: #E0E0E0;
+}
+div:hover > .userButtons {
+    fill: #B0B0B0;
+}
+button .userButtons {
+    fill: #E0E0E0;
+}
+button:hover > .userButtons {
+    fill: #151515;
+}
+button:disabled .userButtons {
+    fill: gray;
+}
+.panelButtons {
+    fill: #aaa;
+    transition: 0.5s;
+}
+.panelButtons:hover {
+    fill: #626262;
+    cursor: pointer;
+}
+div:hover > .panelButtons {
+    fill: #626262;
+    cursor: pointer;
+}
+a:hover > div > .panelButtons {
+    fill: #626262;
+    cursor: pointer;
+}

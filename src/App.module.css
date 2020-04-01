@@ -1,0 +1,38 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    font-size: 0;
+}
+body {
+    background-color: #F9F9F9;
+}
+.app_wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+            "h h h"
+            "lc nc rc"
+            "lc cp rc"
+            "lc cc rc"
+            "lc aa rc";
+    grid-template-rows: 90px;
+    grid-template-columns: auto 675px auto;
+    /* grid-gap: 10px; */
+}
+
+button,
+button,input:active,
+button,input:focus,
+button,input:disabled {
+    outline: none;
+}
+button,input::-moz-focus-inner {
+    border: 0;
+}

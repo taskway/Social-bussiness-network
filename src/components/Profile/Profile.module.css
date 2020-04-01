@@ -1,0 +1,158 @@
+.profile {
+    grid-area: cc;
+    font-family: "Circe Light";
+}
+.user {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid #F8F8F8;
+    padding: 17px 34px 24px 34px;
+}
+.user .avatar {
+    width: 158px;
+    height: 158px;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+.user .avatar .content {
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+.user .avatar .content .upload {
+    font-size: 12px;
+    color: #bfbfbf;
+    margin-top: 15px;
+}
+.user .options {
+    display: grid;
+    grid-template-columns: 158px auto;
+    grid-gap: 34px;
+}
+.user .options .name {
+    font-size: 18px;
+    color: #333333;
+    line-height: 23px;
+}
+.user .options .data div {
+    font-size: 15px;
+    color: #B3B3B3;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.user .options .data > div > div > img {
+    margin-right: 3px;
+}
+
+.user .options .data > div > div > .reviews {
+    display: inline;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.user .options .tasks {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 34px;
+    margin-top: 14px;
+    grid-template-rows: 41px;
+}
+.user .options .tasks > div {
+    font-size: 15px;
+    color: #777777;
+    background-color: #FBFBFB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+.user .about_me {
+    display: grid;
+    grid-template-columns: 12fr;
+    margin-top: 30px;
+}
+.user .about_me .info {
+    font-size: 15px;
+    color: #333333;
+    line-height: 18px;
+}
+.user .tape {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 34px;
+    margin-top: 30px;
+}
+.user .tape div {
+    background-color: #FBFBFB;
+    height: 172px;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+.user .buttons {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: baseline;
+    margin-top: 34px;
+}
+.user .buttons div {
+    font-size: 12px;
+    color: #555555;
+    font-family: "Circe Light";
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.user .buttons > div:hover {
+    cursor: pointer;
+}
+.user .buttons > div:hover > div {
+    color: #151515;
+}
+.user .buttons div div {
+    margin-top: 12px;
+}
+.user .buttons button {
+    font-size: 12px;
+    color: #555555;
+    font-family: "Circe Light";
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.user .buttons > button:hover {
+    cursor: pointer;
+}
+.user .buttons > button:active {
+    padding: 0;
+}
+.user .buttons > button:hover > div {
+    color: #151515;
+}
+.user .buttons > button > div {
+    margin-top: 12px;
+}
+.user .buttons > button:disabled > div {
+    color: gray;
+}
+.logout {
+    grid-area: aa;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    font-family: "Circe Light";
+    font-size: 15px;
+}

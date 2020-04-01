@@ -1,0 +1,49 @@
+.login {
+    grid-area: cc;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    font-family: "Circe Light";
+}
+.login h1{
+    font-size: 18px;
+    color: #555555;
+    text-align: center;
+}
+.login input{
+    font-size: 18px;
+    color: #555555;
+    width: 250px;
+    height: 44px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-family: "Circe Light";
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.login button{
+    font-size: 18px;
+    color: #555555;
+    width: 100px;
+    height: 44px;
+    margin-top: 15px;
+    font-family: "Circe Light";
+    border: 1px solid #F8F8F8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+}
+.summaryError {
+    color: red;
+    font-size: 14px;
+    display: block;
+    font-family: "Circe Light";
+    margin-top: 5px;
+}
+.login .hasError input {
+    border: 1px solid red;
+    transition: 0.5s;
+}
